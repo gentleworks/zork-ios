@@ -21,12 +21,10 @@ extern int rand P((void));
 
 /* We should have a definition for time_t and struct tm by now.  Make
  * sure we have definitions for the functions we want to call.
- * The argument to localtime should be P((const time_t *)), but Ultrix
- * 4.0 leaves out the const in their prototype.  Damn them.
  */
 
 extern time_t time P((time_t *));
-extern struct tm *localtime ();
+extern struct tm *localtime P((const time_t *));
 
 /* Terminate the game */
 
