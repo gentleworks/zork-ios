@@ -10,7 +10,7 @@
 #include "funcs.h"
 #include "vars.h"
 
-void main(argc, argv)
+void dungeon_main(argc, argv)
 int argc;
 char **argv;
 {

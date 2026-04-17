@@ -15,22 +15,24 @@ This codebase is a C port derived from the FORTRAN source of **Zork 2.6**.
 
 ## Installation
 
-### Fedora Linux
+Please see the upstream project at [/devshane/zork](https://github.com/devshane/zork) for classic OS deployment.
 
-This package is available in the official Fedora Linux repositories.
-You can install it directly via the command-line:
+### iOS
 
-```bash
-sudo dnf install zork
-```
+An iOS app is included in the `ZorkIOS/` directory. Open
+`ZorkIOS/ZorkIOS.xcodeproj` in Xcode, set your Development Team in the
+project's Signing & Capabilities settings, and build to a simulator or device.
 
-### Building from Source
+The app wraps the C source in this repository directly — no duplication of game
+files. Two minimal changes to the C source were required:
 
-To build the game from the source files in this repository:
+- **`dmain.c`**: `main()` renamed to `dungeon_main()` so it does not conflict
+  with the iOS app's own entry point.
+- **`supp.c`**: `exit_()` changed to call `longjmp` back to the iOS bridge
+  instead of calling `exit(0)`, which would terminate the app.
 
-```bash
-make
-```
+The iOS-specific bridge code lives entirely in `ZorkIOS/Sources/ZorkIOS/` and
+does not affect the command-line build.
 
 
 ## Modern Maintainership & Philosophy (2013-12 to present)

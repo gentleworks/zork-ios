@@ -1,6 +1,10 @@
 /* supp.c -- support routines for dungeon */
 
 #include <stdio.h>
+#include <setjmp.h>
+
+extern jmp_buf dungeon_exit_jump;
+extern volatile int dungeon_exited;
 
 #ifdef unix
 #include <sys/types.h>
@@ -31,7 +35,10 @@ extern struct tm *localtime P((const time_t *));
 void exit_()
 {
     fprintf(stderr, "The game is over.\n");
-    exit(0);
+    fflush(stdout);
+    fflush(stderr);
+    dungeon_exited = 1;
+    longjmp(dungeon_exit_jump, 1);
 }
 
 /* Get time in hours, minutes and seconds */
