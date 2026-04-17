@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2663E11409938B5E16EBA6 /* dsub.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AABCDDB187A296489C211E6 /* dsub.c */; };
+		1307C723E8EE4B560339C275 /* np3.c in Sources */ = {isa = PBXBuildFile; fileRef = BB34ABBB3B92FC5C3455DB09 /* np3.c */; };
+		1318C8EC21243C1B10998BD5 /* verbs.c in Sources */ = {isa = PBXBuildFile; fileRef = CA8CC76B8E6FD332C92804B7 /* verbs.c */; };
+		1588A1127F1FE5FE36712870 /* objcts.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BDBEDD9A47FB69F199AD00E /* objcts.c */; };
+		17B8E7D9FB074129C7F08B98 /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = 62A3F4C35644AC677F9E7379 /* local.c */; };
+		26EB5301B3AAACA70A57AD32 /* dso2.c in Sources */ = {isa = PBXBuildFile; fileRef = 113CBFA278FB0A320FD56875 /* dso2.c */; };
+		26F7D9AD09E45E63ECFEC602 /* ../dtextc.dat in Resources */ = {isa = PBXBuildFile; fileRef = 323E251D6AA86BA9DC9CFE46 /* ../dtextc.dat */; };
+		2F20556F01FD7C6DC6DC11F8 /* rooms.c in Sources */ = {isa = PBXBuildFile; fileRef = 97A93F209FCD65E17104502C /* rooms.c */; };
+		39E738FED0CB557169D4147B /* dso4.c in Sources */ = {isa = PBXBuildFile; fileRef = C5B4881274AE407556166CB8 /* dso4.c */; };
+		44A52C3E1F36EE16F8729A48 /* sobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C751E2F8570D3065752D300 /* sobjs.c */; };
+		470E17C2CD9409E1F2CDCDDE /* dso3.c in Sources */ = {isa = PBXBuildFile; fileRef = 02C4B6490419BE58279AC57C /* dso3.c */; };
+		4B1A25B77625222BD81F2E7A /* clockr.c in Sources */ = {isa = PBXBuildFile; fileRef = 21E8C3D83161066D682E56B3 /* clockr.c */; };
+		4D655F71B49B16550ED7B841 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D28D5BDE1F64651AA54D43B /* GameEngine.swift */; };
+		50D99BCA80760514CF6E94EE /* supp.c in Sources */ = {isa = PBXBuildFile; fileRef = AD256F46E744164C6C8EFB76 /* supp.c */; };
+		630611DDCFFE9BA025E05AFD /* nobjs.c in Sources */ = {isa = PBXBuildFile; fileRef = 80BFCB7EC6AF968BC448AB2F /* nobjs.c */; };
+		68315ACF7E92F146D0368966 /* villns.c in Sources */ = {isa = PBXBuildFile; fileRef = 240EB12DD27F92E89F20AB5C /* villns.c */; };
+		6D76E398C2D7E4EC3377A2D5 /* dso1.c in Sources */ = {isa = PBXBuildFile; fileRef = A6939096157F9CF3308599EB /* dso1.c */; };
+		72F2C7B1079FAF9CF571E3E8 /* dinit.c in Sources */ = {isa = PBXBuildFile; fileRef = AE0AB085ACA58CBB7F1E296F /* dinit.c */; };
+		73F918F08B1FE8BA3EC7BF10 /* lightp.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CE0E1F70B4945313939B968 /* lightp.c */; };
+		7C666DCE9FB3DB092CA6D3C4 /* actors.c in Sources */ = {isa = PBXBuildFile; fileRef = 40B5DE9FB9AEAA0631A7B992 /* actors.c */; };
+		82A0DC88E694DA0A0BCBC864 /* dverb1.c in Sources */ = {isa = PBXBuildFile; fileRef = 313B1D74F2A10C7E81C3A30B /* dverb1.c */; };
+		82ED00BABD7EB10C60F75715 /* nrooms.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F6534A9D5EEC252C0C70C79 /* nrooms.c */; };
+		A4B6343158A09938FE0A624D /* ZorkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64FFD9B4429730F39FDC346 /* ZorkApp.swift */; };
+		A6144F1B3D5D804FD5B434E3 /* sverbs.c in Sources */ = {isa = PBXBuildFile; fileRef = CDD2DF9C16FFEA7C8CD49AB4 /* sverbs.c */; };
+		A86836D67CA651D5137A5687 /* np.c in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFF4A0539396F395B4FEA4 /* np.c */; };
+		A87DE370752E83342FD6962D /* dso7.c in Sources */ = {isa = PBXBuildFile; fileRef = E7FBD5264F90689C340EBDE3 /* dso7.c */; };
+		B88BCC348C95D36A7C0274CC /* dverb2.c in Sources */ = {isa = PBXBuildFile; fileRef = 8870BC97EA583F14BEB63959 /* dverb2.c */; };
+		BAC3D57FADF770FF2747BE41 /* dso6.c in Sources */ = {isa = PBXBuildFile; fileRef = 6EB1309BDE76090791BF16B7 /* dso6.c */; };
+		BFB5D814C0D7FEC61EB4192E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB22B9A819EA0A53633A2DD3 /* ContentView.swift */; };
+		C868A04A383FB0581D37AC11 /* ballop.c in Sources */ = {isa = PBXBuildFile; fileRef = D88DC84A3B9C8BEF76A2DB8D /* ballop.c */; };
+		C9A4D1070589502DF487D882 /* demons.c in Sources */ = {isa = PBXBuildFile; fileRef = 77E0282CF29BB24C7C48D194 /* demons.c */; };
+		D17417F3F3EE1A70B9EAD158 /* gdt.c in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4F361B7D6B7FDD3B6F3F /* gdt.c */; };
+		D2507538A057598BC3286DD4 /* np1.c in Sources */ = {isa = PBXBuildFile; fileRef = EF909B763E28AF3C56D6FDB8 /* np1.c */; };
+		E0EC1361DC225921823ABBAA /* np2.c in Sources */ = {isa = PBXBuildFile; fileRef = B00F94710C90A04C33F4AB14 /* np2.c */; };
+		E8497A9202594B20F765B0F1 /* TerminalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508B241DE7A120B0B90CFA53 /* TerminalTextView.swift */; };
+		EB0F576C4FD95668B66DBF76 /* dgame.c in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A366E23195AFBCCA1F563 /* dgame.c */; };
+		EEE8A15CF472405984CE947C /* dmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 64E300B625043B8DB24EB0DE /* dmain.c */; };
+		F45AD99B7496D38AC45C8A1A /* dso5.c in Sources */ = {isa = PBXBuildFile; fileRef = 33028C97C621ADBF0529227C /* dso5.c */; };
+		F905E406158AFC76DE05E8E9 /* ios_bridge.c in Sources */ = {isa = PBXBuildFile; fileRef = C4B6BC1EBED37B34306591A4 /* ios_bridge.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02C4B6490419BE58279AC57C /* dso3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso3.c; sourceTree = "<group>"; };
+		0F6534A9D5EEC252C0C70C79 /* nrooms.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nrooms.c; sourceTree = "<group>"; };
+		113CBFA278FB0A320FD56875 /* dso2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso2.c; sourceTree = "<group>"; };
+		1CE0E1F70B4945313939B968 /* lightp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lightp.c; sourceTree = "<group>"; };
+		21E8C3D83161066D682E56B3 /* clockr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = clockr.c; sourceTree = "<group>"; };
+		240EB12DD27F92E89F20AB5C /* villns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = villns.c; sourceTree = "<group>"; };
+		2D4A366E23195AFBCCA1F563 /* dgame.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dgame.c; sourceTree = "<group>"; };
+		313B1D74F2A10C7E81C3A30B /* dverb1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dverb1.c; sourceTree = "<group>"; };
+		323E251D6AA86BA9DC9CFE46 /* ../dtextc.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = ../dtextc.dat; sourceTree = SOURCE_ROOT; };
+		33028C97C621ADBF0529227C /* dso5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso5.c; sourceTree = "<group>"; };
+		40B5DE9FB9AEAA0631A7B992 /* actors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = actors.c; sourceTree = "<group>"; };
+		4C751E2F8570D3065752D300 /* sobjs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sobjs.c; sourceTree = "<group>"; };
+		508B241DE7A120B0B90CFA53 /* TerminalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalTextView.swift; sourceTree = "<group>"; };
+		536502440E47C42C887587B1 /* ZorkIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZorkIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECFF4A0539396F395B4FEA4 /* np.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = np.c; sourceTree = "<group>"; };
+		62A3F4C35644AC677F9E7379 /* local.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = local.c; sourceTree = "<group>"; };
+		64E300B625043B8DB24EB0DE /* dmain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dmain.c; sourceTree = "<group>"; };
+		6EB1309BDE76090791BF16B7 /* dso6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso6.c; sourceTree = "<group>"; };
+		77E0282CF29BB24C7C48D194 /* demons.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demons.c; sourceTree = "<group>"; };
+		7AABCDDB187A296489C211E6 /* dsub.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dsub.c; sourceTree = "<group>"; };
+		7BDBEDD9A47FB69F199AD00E /* objcts.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = objcts.c; sourceTree = "<group>"; };
+		80BFCB7EC6AF968BC448AB2F /* nobjs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nobjs.c; sourceTree = "<group>"; };
+		8870BC97EA583F14BEB63959 /* dverb2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dverb2.c; sourceTree = "<group>"; };
+		97A93F209FCD65E17104502C /* rooms.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rooms.c; sourceTree = "<group>"; };
+		9D28D5BDE1F64651AA54D43B /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		A6939096157F9CF3308599EB /* dso1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso1.c; sourceTree = "<group>"; };
+		AD256F46E744164C6C8EFB76 /* supp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = supp.c; sourceTree = "<group>"; };
+		AE0AB085ACA58CBB7F1E296F /* dinit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dinit.c; sourceTree = "<group>"; };
+		B00F94710C90A04C33F4AB14 /* np2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = np2.c; sourceTree = "<group>"; };
+		B64FFD9B4429730F39FDC346 /* ZorkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZorkApp.swift; sourceTree = "<group>"; };
+		BB34ABBB3B92FC5C3455DB09 /* np3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = np3.c; sourceTree = "<group>"; };
+		BF27FB70E17A7E757BE87DDE /* ZorkIOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZorkIOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4B6BC1EBED37B34306591A4 /* ios_bridge.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ios_bridge.c; sourceTree = "<group>"; };
+		C5B4881274AE407556166CB8 /* dso4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso4.c; sourceTree = "<group>"; };
+		CA8CC76B8E6FD332C92804B7 /* verbs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = verbs.c; sourceTree = "<group>"; };
+		CDD2DF9C16FFEA7C8CD49AB4 /* sverbs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sverbs.c; sourceTree = "<group>"; };
+		CEDD4F361B7D6B7FDD3B6F3F /* gdt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gdt.c; sourceTree = "<group>"; };
+		D88DC84A3B9C8BEF76A2DB8D /* ballop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ballop.c; sourceTree = "<group>"; };
+		E7A27C37A5FA289A977CDE28 /* ios_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_config.h; sourceTree = "<group>"; };
+		E7FBD5264F90689C340EBDE3 /* dso7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dso7.c; sourceTree = "<group>"; };
+		EB22B9A819EA0A53633A2DD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF909B763E28AF3C56D6FDB8 /* np1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = np1.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1DCB3996F4ED3A6D17BDB018 = {
+			isa = PBXGroup;
+			children = (
+				FD950C24F35A42FA52C9C336 /* zork */,
+				6B563370FF8D66C31C66EE9E /* ZorkIOS */,
+				EE938EA981937B6BFE1D948C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B563370FF8D66C31C66EE9E /* ZorkIOS */ = {
+			isa = PBXGroup;
+			children = (
+				EB22B9A819EA0A53633A2DD3 /* ContentView.swift */,
+				323E251D6AA86BA9DC9CFE46 /* ../dtextc.dat */,
+				9D28D5BDE1F64651AA54D43B /* GameEngine.swift */,
+				C4B6BC1EBED37B34306591A4 /* ios_bridge.c */,
+				E7A27C37A5FA289A977CDE28 /* ios_config.h */,
+				508B241DE7A120B0B90CFA53 /* TerminalTextView.swift */,
+				B64FFD9B4429730F39FDC346 /* ZorkApp.swift */,
+				BF27FB70E17A7E757BE87DDE /* ZorkIOS-Bridging-Header.h */,
+			);
+			name = ZorkIOS;
+			path = Sources/ZorkIOS;
+			sourceTree = "<group>";
+		};
+		EE938EA981937B6BFE1D948C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536502440E47C42C887587B1 /* ZorkIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD950C24F35A42FA52C9C336 /* zork */ = {
+			isa = PBXGroup;
+			children = (
+				40B5DE9FB9AEAA0631A7B992 /* actors.c */,
+				D88DC84A3B9C8BEF76A2DB8D /* ballop.c */,
+				21E8C3D83161066D682E56B3 /* clockr.c */,
+				77E0282CF29BB24C7C48D194 /* demons.c */,
+				2D4A366E23195AFBCCA1F563 /* dgame.c */,
+				AE0AB085ACA58CBB7F1E296F /* dinit.c */,
+				64E300B625043B8DB24EB0DE /* dmain.c */,
+				A6939096157F9CF3308599EB /* dso1.c */,
+				113CBFA278FB0A320FD56875 /* dso2.c */,
+				02C4B6490419BE58279AC57C /* dso3.c */,
+				C5B4881274AE407556166CB8 /* dso4.c */,
+				33028C97C621ADBF0529227C /* dso5.c */,
+				6EB1309BDE76090791BF16B7 /* dso6.c */,
+				E7FBD5264F90689C340EBDE3 /* dso7.c */,
+				7AABCDDB187A296489C211E6 /* dsub.c */,
+				313B1D74F2A10C7E81C3A30B /* dverb1.c */,
+				8870BC97EA583F14BEB63959 /* dverb2.c */,
+				CEDD4F361B7D6B7FDD3B6F3F /* gdt.c */,
+				1CE0E1F70B4945313939B968 /* lightp.c */,
+				62A3F4C35644AC677F9E7379 /* local.c */,
+				80BFCB7EC6AF968BC448AB2F /* nobjs.c */,
+				5ECFF4A0539396F395B4FEA4 /* np.c */,
+				EF909B763E28AF3C56D6FDB8 /* np1.c */,
+				B00F94710C90A04C33F4AB14 /* np2.c */,
+				BB34ABBB3B92FC5C3455DB09 /* np3.c */,
+				0F6534A9D5EEC252C0C70C79 /* nrooms.c */,
+				7BDBEDD9A47FB69F199AD00E /* objcts.c */,
+				97A93F209FCD65E17104502C /* rooms.c */,
+				4C751E2F8570D3065752D300 /* sobjs.c */,
+				AD256F46E744164C6C8EFB76 /* supp.c */,
+				CDD2DF9C16FFEA7C8CD49AB4 /* sverbs.c */,
+				CA8CC76B8E6FD332C92804B7 /* verbs.c */,
+				240EB12DD27F92E89F20AB5C /* villns.c */,
+			);
+			name = zork;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786C67D033C1691E3AF725E2 /* ZorkIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07D472C9E285984075EDE65 /* Build configuration list for PBXNativeTarget "ZorkIOS" */;
+			buildPhases = (
+				1E7DD46BB3258B7BD5F7373D /* Sources */,
+				8CC0B2C628C2664D7D7D6D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZorkIOS;
+			packageProductDependencies = (
+			);
+			productName = ZorkIOS;
+			productReference = 536502440E47C42C887587B1 /* ZorkIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09A01603AAA47B81133A619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = E242DA770AA532444E052BFD /* Build configuration list for PBXProject "ZorkIOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1DCB3996F4ED3A6D17BDB018;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE938EA981937B6BFE1D948C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786C67D033C1691E3AF725E2 /* ZorkIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC0B2C628C2664D7D7D6D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F7D9AD09E45E63ECFEC602 /* ../dtextc.dat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7DD46BB3258B7BD5F7373D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB5D814C0D7FEC61EB4192E /* ContentView.swift in Sources */,
+				4D655F71B49B16550ED7B841 /* GameEngine.swift in Sources */,
+				E8497A9202594B20F765B0F1 /* TerminalTextView.swift in Sources */,
+				A4B6343158A09938FE0A624D /* ZorkApp.swift in Sources */,
+				7C666DCE9FB3DB092CA6D3C4 /* actors.c in Sources */,
+				C868A04A383FB0581D37AC11 /* ballop.c in Sources */,
+				4B1A25B77625222BD81F2E7A /* clockr.c in Sources */,
+				C9A4D1070589502DF487D882 /* demons.c in Sources */,
+				EB0F576C4FD95668B66DBF76 /* dgame.c in Sources */,
+				72F2C7B1079FAF9CF571E3E8 /* dinit.c in Sources */,
+				EEE8A15CF472405984CE947C /* dmain.c in Sources */,
+				6D76E398C2D7E4EC3377A2D5 /* dso1.c in Sources */,
+				26EB5301B3AAACA70A57AD32 /* dso2.c in Sources */,
+				470E17C2CD9409E1F2CDCDDE /* dso3.c in Sources */,
+				39E738FED0CB557169D4147B /* dso4.c in Sources */,
+				F45AD99B7496D38AC45C8A1A /* dso5.c in Sources */,
+				BAC3D57FADF770FF2747BE41 /* dso6.c in Sources */,
+				A87DE370752E83342FD6962D /* dso7.c in Sources */,
+				0A2663E11409938B5E16EBA6 /* dsub.c in Sources */,
+				82A0DC88E694DA0A0BCBC864 /* dverb1.c in Sources */,
+				B88BCC348C95D36A7C0274CC /* dverb2.c in Sources */,
+				D17417F3F3EE1A70B9EAD158 /* gdt.c in Sources */,
+				F905E406158AFC76DE05E8E9 /* ios_bridge.c in Sources */,
+				73F918F08B1FE8BA3EC7BF10 /* lightp.c in Sources */,
+				17B8E7D9FB074129C7F08B98 /* local.c in Sources */,
+				630611DDCFFE9BA025E05AFD /* nobjs.c in Sources */,
+				A86836D67CA651D5137A5687 /* np.c in Sources */,
+				D2507538A057598BC3286DD4 /* np1.c in Sources */,
+				E0EC1361DC225921823ABBAA /* np2.c in Sources */,
+				1307C723E8EE4B560339C275 /* np3.c in Sources */,
+				82ED00BABD7EB10C60F75715 /* nrooms.c in Sources */,
+				1588A1127F1FE5FE36712870 /* objcts.c in Sources */,
+				2F20556F01FD7C6DC6DC11F8 /* rooms.c in Sources */,
+				44A52C3E1F36EE16F8729A48 /* sobjs.c in Sources */,
+				50D99BCA80760514CF6E94EE /* supp.c in Sources */,
+				A6144F1B3D5D804FD5B434E3 /* sverbs.c in Sources */,
+				1318C8EC21243C1B10998BD5 /* verbs.c in Sources */,
+				68315ACF7E92F146D0368966 /* villns.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76462D0F80773FDB88EB1634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A349ACAC35F0F534E1ACEBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AFDA7A02842458C0C7B43336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6LF572W89;
+				ENABLE_BITCODE = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/..",
+					"$(SRCROOT)/Sources/ZorkIOS",
+				);
+				INFOPLIST_KEY_CFBundleDisplayName = Zork;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = (
+					"-include",
+					"$(SRCROOT)/Sources/ZorkIOS/ios_config.h",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZorkIOS;
+				PRODUCT_NAME = ZorkIOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/ZorkIOS/ZorkIOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D86E77B26B2B64165249A3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6LF572W89;
+				ENABLE_BITCODE = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/..",
+					"$(SRCROOT)/Sources/ZorkIOS",
+				);
+				INFOPLIST_KEY_CFBundleDisplayName = Zork;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = (
+					"-include",
+					"$(SRCROOT)/Sources/ZorkIOS/ios_config.h",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZorkIOS;
+				PRODUCT_NAME = ZorkIOS;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/ZorkIOS/ZorkIOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07D472C9E285984075EDE65 /* Build configuration list for PBXNativeTarget "ZorkIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA7A02842458C0C7B43336 /* Debug */,
+				D86E77B26B2B64165249A3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E242DA770AA532444E052BFD /* Build configuration list for PBXProject "ZorkIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A349ACAC35F0F534E1ACEBD8 /* Debug */,
+				76462D0F80773FDB88EB1634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C09A01603AAA47B81133A619 /* Project object */;
+}
